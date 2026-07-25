@@ -1,8 +1,8 @@
 """
 Análise Uber Ride (Kaggle, 2024) — portfólio Mateus Gomes.
 
-Lê data/ncr_ride_bookings.csv e gera:
-  - outputs/analise-uber.png     → painel visual
+Lê /ncr_ride_bookings.csv e gera:
+  - outputs/analise-uber.png     → painel visual (nao está no github)
   - outputs/insights.json        → métricas usadas no site
   - outputs/RELATORIO.md         → como chegamos aos números
 
@@ -20,7 +20,7 @@ import pandas as pd
 from matplotlib.patches import FancyBboxPatch
 
 ROOT = Path(__file__).resolve().parent
-DATA = ROOT / "data" / "ncr_ride_bookings.csv"
+DATA = ROOT / "ncr_ride_bookings.csv"
 OUT = ROOT / "outputs"
 OUT.mkdir(parents=True, exist_ok=True)
 
@@ -57,7 +57,7 @@ def load_and_prepare() -> tuple[pd.DataFrame, dict]:
     if not DATA.exists():
         raise FileNotFoundError(
             f"CSV não encontrado em {DATA}.\n"
-            "Veja data/README.md para baixar a base do Kaggle."
+            "Veja README_ncr_ride_bookings.md para baixar a base do Kaggle."
         )
 
     df = pd.read_csv(DATA, low_memory=False)
