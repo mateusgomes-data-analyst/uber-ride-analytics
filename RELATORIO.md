@@ -8,7 +8,7 @@ De cada 100 pedidos, quantos viram corrida concluída — e por que os outros fa
 
 ## Como os números foram obtidos
 
-1. Carregamos `data/ncr_ride_bookings.csv` (~150 mil pedidos de 2024).
+1. Carregamos `root/ncr_ride_bookings.csv` (~150 mil pedidos de 2024).
 2. Contamos `Booking Status` para montar o funil.
 3. Nas corridas **Completed**, calculamos médias de espera (VTAT), duração (CTAT), valor, distância e notas.
 4. Agrupamos por hora (`Time`) para achar o pico de demanda.
@@ -56,6 +56,6 @@ O motorista cancela cerca de **2.6×** mais que o cliente (18.0% vs 7.0%). Soman
 
 ## Arquivos gerados
 
-- `outputs/analise-uber.png` — painel visual do case
+- `outputs/analise-uber.png` — painel visual do case (não está nesse repositorio)
 - `outputs/insights.json` — métricas em JSON
 - `outputs/RELATORIO.md` — este arquivo
