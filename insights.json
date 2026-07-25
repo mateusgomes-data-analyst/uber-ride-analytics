@@ -1,0 +1,44 @@
+{
+  "total_bookings": 150000,
+  "completed": 93000,
+  "success_rate_pct": 62.0,
+  "cancel_customer": 10500,
+  "cancel_driver": 27000,
+  "cancel_rate_pct": 25.0,
+  "cancel_customer_pct": 7.0,
+  "cancel_driver_pct": 18.0,
+  "no_driver": 10500,
+  "no_driver_pct": 7.0,
+  "incomplete": 9000,
+  "incomplete_pct": 6.0,
+  "avg_vtat_min": 8.51,
+  "avg_ctat_min": 30.03,
+  "avg_distance_km": 26.0,
+  "avg_booking_value_inr": 508.18,
+  "avg_driver_rating": 4.23,
+  "avg_customer_rating": 4.4,
+  "peak_hour": 18,
+  "peak_hour_bookings": 12397,
+  "top_payment": "UPI",
+  "top_vehicle": "Auto",
+  "revenue_by_payment_inr": {
+    "UPI": 21274591.0,
+    "Cash": 11756071.0,
+    "Uber Wallet": 5669070.0,
+    "Credit Card": 4753767.0,
+    "Debit Card": 3807075.0
+  },
+  "top_cancel_reasons_customer": {
+    "Wrong Address": 2362,
+    "Change of plans": 2353,
+    "Driver is not moving towards pickup location": 2335,
+    "Driver asked to cancel": 2295,
+    "AC is not working": 1155
+  },
+  "top_cancel_reasons_driver": {
+    "Customer related issue": 6837,
+    "The customer was coughing/sick": 6751,
+    "Personal & Car related issues": 6726,
+    "More than permitted people in there": 6686
+  }
+}
